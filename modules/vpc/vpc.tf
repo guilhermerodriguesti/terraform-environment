@@ -18,8 +18,8 @@ module "main-vpc" {
   enable_vpn_gateway = false
 
   tags = {
-    Terraform   = "true"
-    APP_ENVironment = var.APP_ENV
+    CreateBy   = "DevOps Team"
+    Environment = var.APP_ENV
   }
 }
 
